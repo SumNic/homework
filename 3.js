@@ -14,11 +14,11 @@ let products = [
 	new Product('jfdn', 25, 10, 'mcnd abc ldog'),
 	new Product('john', 7, 3, 'abc mcnd ldog'),
     new Product('fdfd', 2, 37, 'mcnd ldog abc'),
-    new Product('jofd', 40, 5, 'abcsddf'),
+    new Product('jofd', 40, 35, 'abcsddf'),
 ];
 
 // let str = 'name-contains-fd&price-=2&quantity->=5&description-ends-abc';
-let str = 'name-ends-fd&quantity->=35';
+let str = 'name-ends-fd&quantity->=35&description-ends-abc';
 
 function filterProduct(str) {
 
